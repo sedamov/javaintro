@@ -23,6 +23,8 @@ public class Classwork3 {
 //        System.out.println("Has next arg: " + hasNextSecond);
 //        System.out.println("You entered : " + inputStr1);
         System.out.println(2);
+
+
         if (args.length > 0) {
             System.out.print("First arg is: " + args[0]);
         } else {
