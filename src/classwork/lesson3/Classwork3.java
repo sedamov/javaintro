@@ -12,6 +12,7 @@ public class Classwork3 {
         int b = inputScanner.nextInt();
         System.out.println("You entered: " + b);
         int c = inputScanner.nextInt();
+
         System.out.println("You entered: " + c);
 
         int sum = a + b + c;
