@@ -13,6 +13,7 @@ public class Classwork3 {
         System.out.println("You entered: " + b);
         int c = inputScanner.nextInt();
         System.out.println("You entered: " + c);
+
         int sum = a + b + c;
         System.out.println("The sum is: " + (a + b + c));
         System.out.println("Enter your string value: ");
