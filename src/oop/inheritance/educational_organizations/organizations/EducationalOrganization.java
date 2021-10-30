@@ -16,4 +16,31 @@ public class EducationalOrganization {
     protected ArrayList<Program> programs;
     protected ArrayList<Classroom> classrooms;
 
+    public EducationalOrganization() {
+        this.students = new ArrayList<>();
+        this.teachers = new ArrayList<>();
+        this.employees = new ArrayList<>();
+        this.programs = new ArrayList<>();
+        this.classrooms = new ArrayList<>();
+    }
+
+    public void hireEmployee(Employee employee) {
+        if (employee instanceof Teacher) {
+            this.teachers.add((Teacher) employee);
+        } else {
+            this.employees.add(employee);
+        }
+    }
+
+    public void acceptStudent(Student student) {
+        this.students.add(student);
+    }
+
+    public void repairRoom(Classroom classroom) {
+        this.classrooms.add(classroom);
+    }
+
+    public void processProgram(Program program) {
+        this.programs.add(program);
+    }
 }
